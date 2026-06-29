@@ -53,6 +53,9 @@ class DriftDetector:
     DEFAULT_MISSED_THRESHOLD_SECONDS = 1800  # 30 minutes
 
     def __init__(
+        """
+          init   operation.
+        """
         self,
         warning_seconds: int = DEFAULT_DRIFT_WARNING_SECONDS,
         critical_seconds: int = DEFAULT_DRIFT_CRITICAL_SECONDS,
